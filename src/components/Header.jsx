@@ -16,8 +16,9 @@ const Header = () => {
           <Logo />
           <div className="ml-4">
             <h1 className="text-2xl font-semibold">Crash Services</h1>
-            <p className="text-sm text-gray-300">
-              Your Vehicle's Road to Recovery Starts Here!
+            <p className="text-lg">
+              Your Vehicle's Road to{" "}
+              <span style={{ color: "#FFD700" }}>Recovery</span> Starts Here!
             </p>
           </div>
         </div>

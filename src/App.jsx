@@ -10,48 +10,52 @@ import PaintlessDentRepairPage from "./components/Services/PaintlessDentRepairPa
 import PanelReplacementPage from "./components/Services/PanelReplacementPage";
 import FrameRepairPage from "./components/Services/FrameRepairPage";
 import AdditionalServicesPage from "./components/Services/AdditionalServicesPage";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
     <Router>
-      <Routes>
-        <Route exact path="/" element={<HomePage />} />
-        <Route exact path="/services" element={<ServicesPage />} />
-        <Route exact path="/about" element={<AboutPage />} />
-        <Route exact path="/contact" element={<ContactPage />} />
-        <Route
-          exact
-          path="/services/dent-repair"
-          element={<DentRepairPage />}
-        />
-        <Route
-          exact
-          path="/services/scratch-repair"
-          element={<ScratchRepairPage />}
-        />
-        <Route
-          exact
-          path="/services/paintless-dent-repair"
-          element={<PaintlessDentRepairPage />}
-        />
-        <Route
-          exact
-          path="/services/panel-replacement"
-          element={<PanelReplacementPage />}
-        />
-        <Route
-          exact
-          path="/services/frame-repair"
-          element={<FrameRepairPage />}
-        />
-        <Route
-          exact
-          path="/services/additional-services"
-          element={<AdditionalServicesPage />}
-        />
-        {/* Add more routes for other service pages */}
-        <Route path="*" element={<div>404 Not Found</div>} />
-      </Routes>
+      <div>
+        <Routes>
+          <Route exact path="/" element={<HomePage />} />
+          <Route exact path="/services" element={<ServicesPage />} />
+          <Route exact path="/about" element={<AboutPage />} />
+          <Route exact path="/contact" element={<ContactPage />} />
+          <Route
+            exact
+            path="/services/dent-repair"
+            element={<DentRepairPage />}
+          />
+          <Route
+            exact
+            path="/services/scratch-repair"
+            element={<ScratchRepairPage />}
+          />
+          <Route
+            exact
+            path="/services/paintless-dent-repair"
+            element={<PaintlessDentRepairPage />}
+          />
+          <Route
+            exact
+            path="/services/panel-replacement"
+            element={<PanelReplacementPage />}
+          />
+          <Route
+            exact
+            path="/services/frame-repair"
+            element={<FrameRepairPage />}
+          />
+          <Route
+            exact
+            path="/services/additional-services"
+            element={<AdditionalServicesPage />}
+          />
+          {/* Add more routes for other service pages */}
+          <Route path="*" element={<div>404 Not Found</div>} />
+        </Routes>
+      </div>
     </Router>
   );
 };

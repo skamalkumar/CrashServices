@@ -7,6 +7,7 @@ import {
   faEnvelope,
 } from "@fortawesome/free-solid-svg-icons";
 import Logo from "./Logo";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -18,14 +19,20 @@ const Header = () => {
             <h1 className="text-2xl font-semibold">Crash Services</h1>
             <p className="text-lg">
               Your Vehicle's Road to{" "}
-              <span style={{ color: "#FFD700" }}>Recovery</span> Starts Here!
+              <span
+                className="text-yellow-500 transition-all duration-500 transform hover:scale-110"
+                style={{ color: "#FFD700" }}
+              >
+                Recovery
+              </span>{" "}
+              Starts Here!
             </p>
           </div>
         </div>
         <nav className="mt-4 lg:mt-0">
           <ul className="flex flex-col lg:flex-row lg:space-x-8 lg:space-y-0">
             <li>
-              <a href="#" className="flex items-center hover:text-gray-300">
+              <a href="/" className="flex items-center hover:text-gray-300">
                 <FontAwesomeIcon icon={faHome} className="mr-1" /> Home
               </a>
             </li>
@@ -79,15 +86,21 @@ const Header = () => {
               </div>
             </li>
             <li>
-              <a href="#" className="flex items-center hover:text-gray-300">
+              <Link
+                to="/about"
+                className="flex items-center hover:text-gray-300"
+              >
                 <FontAwesomeIcon icon={faInfoCircle} className="mr-1" /> About
                 Us
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="flex items-center hover:text-gray-300">
+              <Link
+                to="/contact"
+                className="flex items-center hover:text-gray-300"
+              >
                 <FontAwesomeIcon icon={faEnvelope} className="mr-1" /> Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </nav>

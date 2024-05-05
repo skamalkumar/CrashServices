@@ -35,7 +35,6 @@ const DentRepairPage = () => {
               <li className="text-gray-600 mb-2">Minor dents</li>
               <li className="text-gray-600 mb-2">Creases</li>
               <li className="text-gray-600 mb-2">Hail damage</li>
-              {/* Add more types of dents as needed */}
             </ul>
           </div>
 
@@ -63,7 +62,6 @@ const DentRepairPage = () => {
                 Final finishing and blending to restore the original contours of
                 the vehicle
               </li>
-              {/* Add more steps as needed */}
             </ol>
           </div>
 

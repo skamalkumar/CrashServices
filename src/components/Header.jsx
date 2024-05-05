@@ -38,48 +38,48 @@ const Header = () => {
                 <FontAwesomeIcon icon={faTools} className="mr-1" /> Services
               </a>
               <div className="absolute hidden bg-white py-2 rounded-md shadow-md z-10 group-hover:block">
-                <a
-                  href="/services/dent-repair"
+                <Link
+                  to="/services/dent-repair"
                   className="block px-4 py-2 text-gray-800 hover:bg-blue-200"
                   style={{ whiteSpace: "nowrap" }}
                 >
                   Dent Repair
-                </a>
-                <a
-                  href="/services/scratch-repair"
+                </Link>
+                <Link
+                  to="/services/scratch-repair"
                   className="block px-4 py-2 text-gray-800 hover:bg-blue-200"
                   style={{ whiteSpace: "nowrap" }}
                 >
                   Scratch Repair
-                </a>
-                <a
-                  href="/services/paintless-dent-repair"
+                </Link>
+                <Link
+                  to="/services/paintless-dent-repair"
                   className="block px-4 py-2 text-gray-800 hover:bg-blue-200"
                   style={{ whiteSpace: "nowrap" }}
                 >
                   Paintless Dent Repair
-                </a>
-                <a
-                  href="/services/panel-replacement"
+                </Link>
+                <Link
+                  to="/services/panel-replacement"
                   className="block px-4 py-2 text-gray-800 hover:bg-blue-200"
                   style={{ whiteSpace: "nowrap" }}
                 >
                   Panel Replacement
-                </a>
-                <a
-                  href="/services/frame-repair"
+                </Link>
+                <Link
+                  to="/services/frame-repair"
                   className="block px-4 py-2 text-gray-800 hover:bg-blue-200"
                   style={{ whiteSpace: "nowrap" }}
                 >
                   Frame Repair
-                </a>
-                <a
-                  href="/services/additional-services"
+                </Link>
+                <Link
+                  to="/services/additional-services"
                   className="block px-4 py-2 text-gray-800 hover:bg-blue-200"
                   style={{ whiteSpace: "nowrap" }}
                 >
                   Additional Services
-                </a>
+                </Link>
               </div>
             </li>
             <li>

@@ -1,5 +1,11 @@
 import React from "react";
 import Layout from "../Layout";
+import before1 from "../../images/scratch_before1.jpg";
+import before2 from "../../images/scratch_before2.jpg";
+import before3 from "../../images/scratch_before3.jpg";
+import after1 from "../../images/scratch_after1.jpg";
+import after2 from "../../images/scratch_after2.jpg";
+import after3 from "../../images/scratch_after3.jpg";
 
 const ScratchRepairPage = () => {
   return (
@@ -79,32 +85,32 @@ const ScratchRepairPage = () => {
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               <img
-                src="/src/images/scratch_before1.jpg"
+                src={before1}
                 alt="Before"
                 className="rounded-lg shadow-lg w-64 h-48 object-cover"
               />
               <img
-                src="/src/images/scratch_before2.jpg"
+                src={before2}
                 alt="Before"
                 className="rounded-lg shadow-lg w-64 h-48 object-cover"
               />
               <img
-                src="/src/images/scratch_before3.jpg"
+                src={before3}
                 alt="Before"
                 className="rounded-lg shadow-lg w-64 h-48 object-cover"
               />
               <img
-                src="/src/images/scratch_after1.jpg"
+                src={after1}
                 alt="After"
                 className="rounded-lg shadow-lg w-64 h-48 object-cover"
               />
               <img
-                src="/src/images/scratch_after2.jpg"
+                src={after2}
                 alt="After"
                 className="rounded-lg shadow-lg w-64 h-48 object-cover"
               />
               <img
-                src="/src/images/scratch_after3.jpg"
+                src={after3}
                 alt="After"
                 className="rounded-lg shadow-lg w-64 h-48 object-cover"
               />

@@ -19,10 +19,7 @@ const Header = () => {
             <h1 className="text-2xl font-semibold">Crash Services</h1>
             <p className="text-lg">
               Your Vehicle's Road to{" "}
-              <span
-                className="text-yellow-500 transition-all duration-500 transform hover:scale-110"
-                style={{ color: "#FFD700" }}
-              >
+              <span className="text-red-400 font-bold animate-pulse">
                 Recovery
               </span>{" "}
               Starts Here!

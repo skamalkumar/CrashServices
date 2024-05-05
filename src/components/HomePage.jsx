@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";
 import ImageCollage from "./ImageCollage";
+import { Link } from "react-router-dom";
 
 const HomePage = () => {
   const images = [
@@ -31,9 +32,9 @@ const HomePage = () => {
                 satisfaction and peace of mind. Whether it's minor dents or
                 major collision damage, we've got you covered.
               </p>
-              <a href="#" className="text-blue-500 hover:underline">
+              <Link to="/services" className="text-blue-500 hover:underline">
                 Learn More about Our Services
-              </a>
+              </Link>
             </div>
             <div>
               <ImageCollage images={images} />

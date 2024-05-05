@@ -1,11 +1,11 @@
 import React from "react";
 import Layout from "../Layout";
-import before1 from "../../images/frame_before1.jpg";
-import before2 from "../../images/frame_before2.jpg";
-import before3 from "../../images/frame_before3.jpg";
-import after1 from "../../images/frame_after1.jpg";
-import after2 from "../../images/frame_after2.jpg";
-import after3 from "../../images/frame_after3.jpg";
+import before11 from "../../images/frame_before1.jpg";
+import before21 from "../../images/frame_before2.jpg";
+import before31 from "../../images/frame_before3.jpg";
+import after11 from "../../images/frame_after1.jpg";
+import after21 from "../../images/frame_after2.jpg";
+import after31 from "../../images/frame_after3.jpg";
 
 const FrameRepairPage = () => {
   return (
@@ -40,7 +40,6 @@ const FrameRepairPage = () => {
               <li className="text-gray-600 mb-2">
                 Preserves the value of your vehicle
               </li>
-              {/* Add more benefits as needed */}
             </ul>
           </div>
 
@@ -65,7 +64,6 @@ const FrameRepairPage = () => {
               <li className="text-gray-600 mb-2">
                 Final inspection to ensure quality and safety
               </li>
-              {/* Add more steps as needed */}
             </ol>
           </div>
 
@@ -78,22 +76,22 @@ const FrameRepairPage = () => {
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="rounded-lg overflow-hidden shadow-lg">
-                <img src={before1} alt="Before" className="w-full h-auto" />
+                <img src={before11} alt="Before" className="w-full h-auto" />
               </div>
               <div className="rounded-lg overflow-hidden shadow-lg">
-                <img src={before2} alt="Before" className="w-full h-auto" />
+                <img src={before21} alt="Before" className="w-full h-auto" />
               </div>
               <div className="rounded-lg overflow-hidden shadow-lg">
-                <img src={before3} alt="Before" className="w-full h-auto" />
+                <img src={before31} alt="Before" className="w-full h-auto" />
               </div>
               <div className="rounded-lg overflow-hidden shadow-lg">
-                <img src={after1} alt="After" className="w-full h-auto" />
+                <img src={after11} alt="After" className="w-full h-auto" />
               </div>
               <div className="rounded-lg overflow-hidden shadow-lg">
-                <img src={after2} alt="After" className="w-full h-auto" />
+                <img src={after21} alt="After" className="w-full h-auto" />
               </div>
               <div className="rounded-lg overflow-hidden shadow-lg">
-                <img src={after3} alt="After" className="w-full h-auto" />
+                <img src={after31} alt="After" className="w-full h-auto" />
               </div>
             </div>
           </div>

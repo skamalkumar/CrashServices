@@ -3,13 +3,17 @@ import Header from "./Header";
 import Footer from "./Footer";
 import ImageCollage from "./ImageCollage";
 import { Link } from "react-router-dom";
+import image1 from "/src/assets/images/image1.jpg";
+import image2 from "/src/assets/images/image2.jpg";
+import image3 from "/src/assets/images/image3.jpg";
+import image4 from "/src/assets/images/image4.jpg";
 
 const HomePage = () => {
   const images = [
-    "/src/images/image1.jpg",
-    "/src/images/image2.jpg",
-    "/src/images/image3.jpg",
-    "/src/images/image4.jpg",
+    "/src/assets/images/image1.jpg",
+    "/src/assets/images/image2.jpg",
+    "/src/assets/images/image3.jpg",
+    "/src/assets/images/image4.jpg",
   ];
 
   return (

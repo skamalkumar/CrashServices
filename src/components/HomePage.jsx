@@ -3,14 +3,13 @@ import Header from "./Header";
 import Footer from "./Footer";
 import ImageCollage from "./ImageCollage";
 import { Link } from "react-router-dom";
+import image1 from "../images/image1.jpg";
+import image2 from "../images/image2.jpg";
+import image3 from "../images/image3.jpg";
+import image4 from "../images/image4.jpg";
 
 const HomePage = () => {
-  const images = [
-    "../../images/image1.jpg",
-    "../../images/image2.jpg",
-    "../../images/image3.jpg",
-    "../../images/image4.jpg",
-  ];
+  const images = [image1, image2, image3, image4];
 
   return (
     <div>

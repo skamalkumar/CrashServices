@@ -6,10 +6,10 @@ import { Link } from "react-router-dom";
 
 const HomePage = () => {
   const images = [
-    "/src/assets/images/image1.jpg",
-    "/src/assets/images/image2.jpg",
-    "/src/assets/images/image3.jpg",
-    "/src/assets/images/image4.jpg",
+    "../../images/image1.jpg",
+    "../../images/image2.jpg",
+    "../../images/image3.jpg",
+    "../../images/image4.jpg",
   ];
 
   return (
